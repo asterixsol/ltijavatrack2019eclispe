@@ -5,6 +5,8 @@ import javax.xml.bind.annotation.XmlRootElement;
 @XmlRootElement
 public class Book {
 	
+	String category;
+	
 	int id;
 	String name,author,isbn;
 	float price;
